@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDP.PushLib.Server", "TDP.PushLib.PushServer\TDP.PushLib.Server.csproj", "{2277CB10-9443-40B1-9A98-5020F87C6C1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDP.BaseServices", "TDP.BaseServices\TDP.BaseServices.csproj", "{8E05F0DF-00FA-476A-ABB4-28FAA84EF389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDP.PushLib.Messages", "TDP.PushLib.Messages\TDP.PushLib.Messages.csproj", "{D82CC5E1-19D0-4AC3-A6F1-04C123FADAB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDP.PushLib.Client", "TDP.PushLib.Client\TDP.PushLib.Client.csproj", "{99AD4D5D-0B55-400E-A23B-57E02AE5B1AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDP.TestServer", "TDP.TestServer\TDP.TestServer.csproj", "{221A1317-8082-496A-AE73-09D1A4843AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDP.TestClient", "TDP.TestClient\TDP.TestClient.csproj", "{096493C8-E55A-4C61-9C6B-8DE4A6E7519F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDP.RSAKeyGenerator", "TDP.RSAKeyGenerator\TDP.RSAKeyGenerator.csproj", "{E41D01FD-4147-408A-AB83-25C20C7BB422}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2277CB10-9443-40B1-9A98-5020F87C6C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2277CB10-9443-40B1-9A98-5020F87C6C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2277CB10-9443-40B1-9A98-5020F87C6C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2277CB10-9443-40B1-9A98-5020F87C6C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E05F0DF-00FA-476A-ABB4-28FAA84EF389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E05F0DF-00FA-476A-ABB4-28FAA84EF389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E05F0DF-00FA-476A-ABB4-28FAA84EF389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E05F0DF-00FA-476A-ABB4-28FAA84EF389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82CC5E1-19D0-4AC3-A6F1-04C123FADAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82CC5E1-19D0-4AC3-A6F1-04C123FADAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82CC5E1-19D0-4AC3-A6F1-04C123FADAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82CC5E1-19D0-4AC3-A6F1-04C123FADAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99AD4D5D-0B55-400E-A23B-57E02AE5B1AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AD4D5D-0B55-400E-A23B-57E02AE5B1AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AD4D5D-0B55-400E-A23B-57E02AE5B1AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AD4D5D-0B55-400E-A23B-57E02AE5B1AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221A1317-8082-496A-AE73-09D1A4843AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221A1317-8082-496A-AE73-09D1A4843AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221A1317-8082-496A-AE73-09D1A4843AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221A1317-8082-496A-AE73-09D1A4843AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096493C8-E55A-4C61-9C6B-8DE4A6E7519F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096493C8-E55A-4C61-9C6B-8DE4A6E7519F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096493C8-E55A-4C61-9C6B-8DE4A6E7519F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096493C8-E55A-4C61-9C6B-8DE4A6E7519F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41D01FD-4147-408A-AB83-25C20C7BB422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41D01FD-4147-408A-AB83-25C20C7BB422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41D01FD-4147-408A-AB83-25C20C7BB422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41D01FD-4147-408A-AB83-25C20C7BB422}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EF712BC-1014-4B1D-A8E4-12735818D055}
+	EndGlobalSection
+EndGlobal
